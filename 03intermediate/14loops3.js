@@ -11,4 +11,5 @@ const symbols = {
 };
 for(const n in symbols){
     console.log(n);
+    console.log(`Key is ${n} and value is ${symbols[n]}`);
 }
